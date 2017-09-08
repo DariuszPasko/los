@@ -1,0 +1,35 @@
+body {
+    background: url(img/Chuck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+;}
+
+p {
+    
+    color: #000;
+}
+
+
+.card {
+    margin: 15% 0 0 70%;
+    max-width: 400px;
+    padding: 50px 10px 30px 30px;
+    
+}
+
+.card p {
+    padding: 0 0 30px 0;
+}
+
+@media(max-width: 1000px){
+    
+    body{background: #fff;
+    }
+
+    .card {
+        margin: 10% auto;
+    }
+
+}
+    
+
